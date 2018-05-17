@@ -24,7 +24,8 @@ public class DebuggingPractice {
 
         System.out.println("3. Exit \n");
         System.out.println("Please enter your selection: ");
-        type = sc.nextInt();
+        
+        type = sc.nextDouble();
 
         if (type == 1) {
             percentageToAlpha();
@@ -33,7 +34,7 @@ public class DebuggingPractice {
             percentageToLevel();
         }
         if (type == 3) {
-
+            System.exit(0);
         }
     }
 
